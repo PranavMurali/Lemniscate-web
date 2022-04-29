@@ -94,22 +94,17 @@ function Home(){
     <>
     {user ? 
     <>
-      <div className=" h-max w-screen ml-32 mt-20 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <h1 className="ml-20 text-4xl font-extrabold leading-none tracking-normal text-white md:text-6xl md:tracking-tight">
+          Your top Games this week
+    </h1>
+      <div className="p-5 h-max w-6/12 -ml-6 mt-16 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <div className="h-max w-full">
         <Line options={options} data={data} />
         </div>
       </div>
-
-      <div className=" h-max w-screen ml-32 mt-20 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div className=" p-5 h-max w-6/12 ml-4 mt-16 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <div className="h-max w-full">
         <Line options={options1} data={data1} />
-        </div>
-      </div>
-
-      <div className=" h-max w-screen ml-32 mt-20 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-        <div className="h-max w-full">
-        <p className="font-bold">PranavMurali</p>
-        <p>The video games industry is tapping into global consumer demand for interactive, online entertainment, which has led to an unprecedented fan base and record-breaking revenues. In 2020, the global video games industry is projected to reach $159b in revenues, which is almost three times the music industry revenues and around four times box office revenues. The biggest market by revenue is Asia-Pacific with almost 50% of the games by value. The United Kingdom also accounts for a major portion of the revenue.</p>
         </div>
       </div>
 
